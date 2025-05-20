@@ -1,0 +1,44 @@
+ /* Reset / Normalize */
+
+img {
+    display: block;
+    max-width: 100%;
+  }
+  
+  ul {
+    list-style: none;
+    margin: 0;
+    padding-left: 0;
+  }
+  
+  /*Global / Base Styles  */
+  
+  body {
+    font-family: 
+   
+  }
+
+  
+  a {
+    text-decoration: none;
+  }
+  
+  h1,
+  h2,
+  h3,
+  h4
+  p {
+    margin: 0;
+  }
+  
+  .logo {
+    font-family: 
+    text-transform: uppercase;
+    margin-right: 76px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    color: #2e2f42;
+  }
+  
