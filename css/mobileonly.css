@@ -1,0 +1,74 @@
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  /* Hero section  */
+  .hero-container {
+    flex-direction: column-reverse;
+    gap: 11px;
+  }
+  .hero-icon {
+    width: 338px;
+    height: 311px;
+  }
+  .hero-title {
+    font-size: 36px;
+    line-height: 1.67;
+    text-align: center;
+  }
+  .hero-btn-list li:first-child button {
+    width: 142px;
+  }
+
+  .hero-btn-list {
+    gap: 28px;
+  }
+  .hero-text {
+    margin-bottom: 32px;
+  }
+
+  /* Advantages section */
+
+  .section-title {
+    max-width: 332px;
+  }
+
+  .advantages-caption-title {
+    margin-bottom: 8px;
+    text-align: center;
+  }
+  .advantages-caption-text {
+    text-align: center;
+    margin-bottom: 37px;
+  }
+  .advantages-icon-box {
+    margin: 0 auto;
+    margin-bottom: 24px;
+  }
+
+  /* Management section  */
+  .management-container {
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+  }
+  .management-container > li {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+  }
+
+  .management-container > li:not(:nth-child(2)) {
+    flex-direction: column-reverse;
+  }
+  .management-container > li > svg {
+    width: 350px;
+    height: 292px;
+  }
+  .block-title {
+    font-weight: 600px;
+  }
+  .start-title {
+    margin-bottom: 16px;
+  }
+  .section-text {
+    margin-bottom: 16px;
+  }
+}

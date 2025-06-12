@@ -10,6 +10,10 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/mobileonly.css" />
+    <link rel="stylesheet" href="css/tabletonly.css" />
+    <link rel="stylesheet" href="css/tablet.css" />
+    <link rel="stylesheet" href="css/desktop.css" />
     <link rel="stylesheet" href="css/modern-normalize.min.css" />
     <title>Business promotion</title>
   </head>
@@ -22,6 +26,11 @@
           </svg>
           Product</a
         >
+        <button class="mobile-menu-btn">
+          <svg class="mobile-menu-icon" width="28" height="31">
+            <use href="./images/icons.svg#icon-menu"></use>
+          </svg>
+        </button>
         <nav>
           <ul class="navigation-list">
             <li><a href="./index.html">Product</a></li>
@@ -59,7 +68,7 @@
               </li>
             </ul>
           </div>
-          <svg width="610" height="555">
+          <svg class="hero-icon" width="610" height="555">
             <use href="./images/icons.svg#icon-hero-img"></use>
           </svg>
         </div>
@@ -126,8 +135,8 @@
 
       <section class="section">
         <h2 class="visually-hidden">Management</h2>
-        <ul class="container">
-          <li class="management-container">
+        <ul class="container management-container">
+          <li>
             <div class="management-text-container">
               <p class="block-title">Effortless Validation for</p>
               <h3 class="section-title start-title">Management</h3>
@@ -157,7 +166,7 @@
               <use href="./images/icons.svg#icon-management-img"></use>
             </svg>
           </li>
-          <li class="management-container">
+          <li>
             <svg width="540" height="500">
               <use href="./images/icons.svg#icon-support-img"></use>
             </svg>
@@ -200,7 +209,7 @@
               </ul>
             </div>
           </li>
-          <li class="management-container">
+          <li>
             <div class="management-text-container">
               <p class="block-title">Optimisation for</p>
               <h3 class="section-title start-title">Collaborative</h3>
